@@ -28,7 +28,7 @@ $c=$conn->prepare("select * from sales where customer=?");
 $arr=array($_SESSION['x']);
 $c->execute($arr);
 ?>
-<table style="border:1px solid #000000; margin-left:200px; margin-top:150px; padding:10px; width:800px;">
+<table style="border:1px solid #000000; margin-left:2first00px; margin-top:150px; padding:10px; width:800px;">
 <tr height="50px;"><th style="border-bottom:1px solid #000000">Bill no</th>
  <th style="border-bottom:1px solid #000000">Customer</th> 
  <th style="border-bottom:1px solid #000000">Product</th> 
